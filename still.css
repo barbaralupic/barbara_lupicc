@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+ body {
+            font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	        background-image: url("projektni4/pozadina.jpg");
+            color: #45674A;
+            margin: 0px;
+            padding: 200px;
+            align-items: center;
+            justify-content: center;
+            height: 10vh;
+            text-align: center;
+        }
+
+        h1 {
+			font-family: BarbaraLupic;
+            font-size: 200px;
+            color: #825D5E;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 100px;
+            color: #664848;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 25px;
+            line-height: 1.5;
+            margin-bottom: 50px;
+			margin-left: 350px;
+			margin-right: 350px;
+            background-color: #fff;
+            padding: 100px;
+            border-radius: 500px;
+          
+			background-color:antiquewhite
+        }
+
+      
+
+ nav {
+  background-color: transparent;
+  padding: 100px;
+  border-radius: 500px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-left: 500px;
+  margin-right: 500px;
+  background-color: rgba(255, 255, 255, 0.5);
+  
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+li a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: rgba(51, 204, 89, 0.3);
+  transition: background-color 0.3s;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 50px; /* Adjust the width to make the circles larger or smaller */
+  height: 50px; /* Adjust the height to make the circles larger or smaller */
+  text-align: center;
+  line-height: 50px;
+}
+
+li a:hover {
+  background-color: rgba(51, 204, 89, 0.5);
+}
+
+
+        
+        .link4,
+        .link3,
+        .link2,
+        .link {
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+            margin-right: 10px;
+            padding: 100px;
+            border-radius: 50%;
+            background-color: #ffcc66;
+            transition: background-color 0.3s;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .link4:hover,
+        .link3:hover,
+        .link2:hover,
+        .link:hover {
+            background-color: #fbaa22;
+			
+        }
+
+        .link3 {
+            background-color: #D2B0B0
+			
+        }
+
+        .link2 {
+            background-color: #96AA9A;
+        }
+
+        .link {
+            background-color: #D4CDA0;
+        }
+
+		.link4 {
+            background-color: #7C94AA;
+        }
+        
+        img {
+	        height: 500px;
+        }
+	
+    @font-face{
+	font-family: BarbaraLupic;
+	src:url("projektni4/BarbaraLupic1 (1).ttf")
+	}
+
+
